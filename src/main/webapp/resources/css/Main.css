@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 100vh;}
+			  
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+		
+	
+}
+
+.mainart {
+		float : left;
+		width : calc(100% / 4);
+		height : 225px;
+		padding : 20px 0;
+		}
+		
+
+

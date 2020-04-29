@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 120vh;}
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+}
+
+.noticeb-inform {margin-bottom : 100px;}
+
+.ntctable-inner {
+		width : 75%;
+		height : 800px;
+		margin-left : auto;
+		margin-right : auto;
+}
+
+.innertable{
+	width : 100%;
+	height : 49px;
+	line-height : 49px;
+	border-width : 1px 0 0 0;
+	border-style : solid;
+	border-color : #8c8c8c;
+	float : left;
+	text-align : center;
+}
+
+.innertable-T1{
+	width : 100%;
+	height : 49px;
+	line-height : 49px;
+	border-width : 1px 0 0 0;
+	border-style : solid;
+	border-color : #8c8c8c;
+	float : left;
+	text-align : center;
+	background-color: #bbbaba;
+}
+
+.innertable-T2 {
+	width : calc(100% - 50px);
+	padding : 25px;
+	border-width : 1px 0;
+	border-style : solid;
+	border-color : #8c8c8c;
+	float : left;
+}
+
+.ntcin-L {
+	width : 20%;
+	height : 100%;
+	float : left;
+	background-color: #bbbaba;
+}
+
+.ntcin-R {
+	width : 80%;
+	float : left;
+}
+
+.left {
+	width : 20%;
+	height : 30px;
+	float : left;
+	text-align : center;
+	background-color: #bbbaba;
+}
+
+.right {
+	width : 20%;
+	height : 30px;
+	float : left;
+	text-align : center;
+}
+
+.m-left {
+	width : 20%;
+	height : 30px;
+	text-align : center;
+	background-color: #bbbaba;
+}
+
+.ntc-maintext {
+	height : 330px;
+}
+
+.m-right {
+	height : 330px;
+	padding : 10px 0;
+}
+
+
+
+.ntc_innerbtns {
+		width : 50%;
+		margin-left : auto;
+		margin-right : auto;
+		text-align : center;
+}
+
+.ntclistbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 15px 20px;
+		 width : 100px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+		 
+}
+
+
+
+
+
+
+
+		
+
+

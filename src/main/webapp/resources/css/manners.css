@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 110vh;}
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+}
+
+.manners-inform {margin-bottom : 100px;}
+
+.rules {
+		width : 100%;
+		float : left;
+		margin-left : auto;
+		margin-right : auto;
+		
+		
+		
+}
+
+.r-contents {
+		margin-bottom : 50px;
+		border-bottom-width : 1px;
+		border-bottom-color : #8c8c8c;
+		border-bottom-style : solid;
+}
+
+.colored {color : #94661c;}
+
+
+
+
+
+		
+
+

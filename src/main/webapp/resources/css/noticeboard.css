@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 110vh;}
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+}
+
+.noticeb-inform {margin-bottom : 100px;}
+
+.ntc-Top {
+		width : calc(100% - 100px);
+		height : 73px;
+		margin : 0 50px;
+		border-width : 1px 0;
+		border-color : #8c8c8c;
+		border-style : solid;
+		background-color : #bbbaba;
+		text-align : center;
+		line-height : 73px;
+}
+
+.ntc-A1 {
+		width : 10%;
+		float : left;
+}
+
+.ntc-A2 {
+		width : 60%;
+		float : left;
+}
+
+.ntc-A3 {
+		width : 15%;
+		float : left;
+}
+
+.ntc-A4 {
+		width : 15%;
+		float : left;
+}
+
+.ntc-list {
+		width : calc(100% - 100px);
+		height : 74px;
+		float : left;
+		text-align : center;
+		line-height : 74px;
+		margin : 0 50px 0 50px;
+		border-bottom-width : 1px;
+		border-bottom-color : #8c8c8c;
+		border-bottom-style : solid;		
+}
+
+.ntc-B1 {
+		width : 10%;
+		float : left;
+}
+
+.ntc-B2 {
+		width : 60%;
+		float : left;
+}
+
+.ntc-B3 {
+		width : 15%;
+		float : left;
+}
+
+.ntc-B4 {
+		width : 15%;
+		float : left;
+}
+
+.div-btns {
+		width : calc(100% - 100px);
+		text-align : right;
+		margin : 0 50px;
+		float : left;
+}
+
+.ntc-newbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 15px 0px 15px 20px;
+		 width : 100px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+		 text-align : center;
+}
+
+
+
+
+
+		
+
+

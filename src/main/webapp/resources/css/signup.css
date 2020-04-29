@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 90vh;}
+
+.signup-inform {
+		font-size : 18px;
+		font-weight : bold;
+}
+
+#tablewrap {
+		width : 50%;
+		margin-left : auto;
+		margin-right : auto;
+		margin-top : 50px;
+}
+		
+.table {
+		width : 100%;
+		height : 74px;
+		line-height : 74px;
+		border-top-width : 1px;
+		border-top-style : solid;
+		border-top-color : #8c8c8c;
+}
+
+
+
+.table-L {
+		width : 25%;
+		height : 100%;
+		float : left;
+		background-color : #bbbaba;
+		text-align : center;
+		display : inline-block;
+		
+}
+
+.table-R {
+		width : calc(75% - 25px);
+		height : 100%;
+		float : left;
+		margin-left : 25px;
+		
+}
+
+#checkyourid {
+		height : 34px;
+		border-style : solid;
+		border-width : 1px;
+		border-color: #8c8c8c;
+		cursor : pointer;
+}
+
+.signup-input {
+		border-width : 1px;
+		border-style : solid;
+		border-color : #8c8c8c;
+		padding-left : 25px;
+}
+
+.table-F {
+		width : 100%;
+		height : 74px;
+		line-height : 74px;	
+		text-align : center;
+		border-width : 1px 0px;
+		border-style : solid;
+		border-color : #8c8c8c;
+}
+
+.signup-comp {
+		width : 100%;
+		height : 74px;
+		line-height : 74px;
+		background-color : white;
+		border-width : 0;
+		cursor : pointer;
+		text-align : center;
+		font-size : 18px;
+		font-weight:bold;
+}
+
+.signup-comp:hover {
+		background-color : #bbbaba;
+}
+
+

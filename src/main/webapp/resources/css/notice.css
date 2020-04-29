@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 100vh;}
+			  
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;				
+}
+
+.notice-inform {
+		margin-bottom : 20px;
+		float : left;
+		width : 75%;
+}
+
+.ntc-newbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 15px 40px 15px 20px;
+		 width : 100px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+		 float : right;
+}
+
+
+
+.accordionlist {
+	width : 100%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  float : left;
+  border-bottom-width : 1px;
+  border-bottom-color : #bbbaba;
+  border-bottom-style : solid;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-weight : bold;
+  transition: 0.4s;
+}
+
+
+.active, .accordion:hover {
+  background-color: #bbbaba; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  margin-bottom : 24px;
+  
+}
+
+.ntcmain {
+		padding-bottom : 25px;
+		margin-bottom : 25px;
+		border-bottom-width : 1px;
+  		border-bottom-color : #bbbaba;
+  		border-bottom-style : solid;
+}
+
+.div-btns {
+		text-align : center;
+		margin-left : auto;
+		margin-right : auto;
+}
+
+.ntc-modifybtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 15px 40px 15px 20px;
+		 width : 100px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+}
+
+.ntc-delbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 15px 40px 15px 20px;
+		 width : 100px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+}
+		
+
+

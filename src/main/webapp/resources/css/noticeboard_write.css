@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 100vh;}
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+}
+
+#ntc-tablewrap {
+		width : 80%;
+		height : 720px;
+		margin-left : auto;
+		margin-right : auto;
+		margin-top : 100px;
+}
+		
+.ntc-table {
+		width : 100%;
+		height : 74px;
+		line-height : 74px;
+		border-top-width : 1px;
+		border-top-style : solid;
+		border-top-color : #8c8c8c;
+		float : left;
+}
+
+
+
+.ntc-table-L {
+		width : 12.5%;
+		height : 100%;
+		float : left;
+		background-color : #bbbaba;
+		text-align : center;
+		display : inline-block;
+		
+}
+
+.ntc-table-R {
+		width : calc(87.5% - 25px);
+		height : 100%;
+		float : left;
+		margin-left : 25px;
+		
+}
+
+.register-input {
+		border-width : 1px;
+		border-style : solid;
+		border-color : #8c8c8c;
+		padding-left : 25px;
+		resize : none;
+}
+
+.ntc-table-D {
+		width : 100%;
+		height : 444px;
+		line-height : 444px;
+		border-top-width : 1px;
+		border-top-style : solid;
+		border-top-color : #8c8c8c;
+		border-bottom-width : 1px;
+		border-bottom-style : solid;
+		border-bottom-color : #8c8c8c;
+		float : left;
+}
+
+
+
+.ntc-table-D-L {
+		width : 12.5%;
+		height : 100%;
+		float : left;
+		background-color : #bbbaba;
+		text-align : center;
+		display : inline-block;
+		
+}
+
+.ntc-table-D-R {
+		width : calc(87.5% - 25px);
+		height : calc(100% - 50px);
+		float : left;
+		margin-left : 25px;
+		margin-top : 25px;
+		margin-bottom : 25px;
+		
+}
+
+
+
+.ntc-table-F {
+		width : 100%;
+		height : 111px;
+		line-height : 111px;	
+		text-align : center;
+		float : left;
+		
+}
+
+.write-comp {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 30px 0px 15px 20px;
+		 width : 125px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+		 text-align : center;
+		 float : right;
+}
+
+
+
+
+
+
+		
+
+

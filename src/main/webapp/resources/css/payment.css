@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 170vh;}
+			  
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+}
+
+/* 맨위 안내부분 */
+.pay-inform {
+		width : 100%;
+		margin-bottom : 20px;
+		float : left;
+}
+
+.redcolor {
+		color : red;
+}
+
+/* 선택한 전시 div */
+.pay-list {
+		width : calc(50% - 100.5px);
+		height : 200px;
+		float : left;
+		margin-left : 50px;
+		padding-right : 50px;
+		border-width : 0px 1px 1px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+}
+
+.pay-image {
+		width : calc(30% - 30px);
+		height : 169px;
+		margin : 15px;
+		float : left;
+}
+
+.imgofexh {
+		width : 100%;
+		height : 160px;
+		float : left;
+}
+
+.exh-explain {
+		width : calc(70% - 50px);
+		margin-top : 20px;
+		height : 179px;
+		margin-left : 50px;
+		float : right;
+}
+
+/* 전시회의 가격 */
+.pay-price {
+		width : calc(25% - 50.5px);
+		height : 200px;
+		float : left;
+		padding-left : 50px;
+		border-width : 0px 0px 1px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+}
+
+/* 연령별 요금적용 안내(고정) */
+.pay-ageinfo {
+		width : calc(25% - 50.5px);
+		height : 200px;
+		float : left;
+		margin-right : 50px;
+		border-width : 0px 0px 0.5px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+		background-color : #bbbaba;
+		text-align : center;
+		
+		
+}
+
+/* 결제창(카드번호) */
+
+
+.pay-card {
+		width : calc(50% - 100.5px);
+		height : 400px;
+		float : left;
+		margin-left : 50px;
+		padding-right : 50px;
+		border-width : 0px 1px 1px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+}
+
+.card-box-F {
+		width : 100%;
+		height : 79px;
+		margin-left : auto;
+		margin-right : auto;
+		border-width : 1px 0px 1px 0;
+		border-color : #8c8c8c;
+		border-style : solid;		
+}
+
+.card-box {
+		width : 100%;
+		height : 79px;
+		margin-left : auto;
+		margin-right : auto;
+		border-width : 0 0px 1px 0;
+		border-color : #8c8c8c;
+		border-style : solid;		
+}
+
+.card-box-L {
+		width : 20%;
+		height : 79px;
+		float : left;
+		line-height : 80px;
+		text-align : center;
+		background-color : #bbbaba;
+}
+
+.card-box-R {
+		width : calc(80% - 20px);
+		height : 79px;
+		float : left;
+		padding-left : 20px;
+		line-height : 79px;
+}
+
+.cardname {
+		border-width : 1px;
+		border-style : solid;
+		border-color : #8c8c8c;
+		padding-left : 15px;
+}
+
+.card-input {
+		border-width : 1px;
+		border-style : solid;
+		border-color : #8c8c8c;
+		padding-left : 15px;
+}
+
+
+
+/* 결제창(인원수) */
+.pay-cash {
+		width : calc(50% - 100.5px);
+		height : 400px;
+		float : left;
+		padding-left : 50px;
+		margin-right : 50px;
+		border-width : 0px 0px 1px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+}
+
+
+
+.cash-box-F {
+		width : 100%;
+		height : 79px;
+		margin-left : auto;
+		margin-right : auto;
+		border-width : 1px 0px 1px 0;
+		border-color : #8c8c8c;
+		border-style : solid;		
+}
+
+.cash-box {
+		width : 100%;
+		height : 79px;
+		margin-left : auto;
+		margin-right : auto;
+		border-width : 0 0px 1px 0;
+		border-color : #8c8c8c;
+		border-style : solid;		
+}
+
+.cash-box-L {
+		width : 20%;
+		height : 79px;
+		float : left;
+		line-height : 80px;
+		text-align : center;
+		background-color : #bbbaba;
+}
+
+.cash-box-R-A {
+		width : calc(80% - 20px);
+		height : 79px;
+		float : left;
+		padding-left : 20px;
+		line-height : 79px;
+}
+
+.cash-box-R-T {
+		width : calc(80% - 20px);
+		height : 79px;
+		float : left;
+		padding-left : 20px;
+		line-height : 79px;
+}
+
+.cash-box-R-C {
+		width : calc(80% - 20px);
+		height : 79px;
+		float : left;
+		padding-left : 20px;
+		line-height : 79px;
+}
+
+.cashbtn {
+		width : 33px;
+		height : 33px;
+		margin : 0 12.5px;
+		background-color : white;
+		border-width : 1px;
+		border-color : #8c8c8c;
+		border-style : solid;
+		font-size : 25px;
+		text-align : center;
+}
+
+
+
+
+
+
+.howmany-a {
+		padding : 0px 15px;
+}
+
+.howmany-t {
+		padding : 0px 15px;
+}
+
+.howmany-c {
+		padding : 0px 15px;
+}
+
+.totalprice {
+		text-align : center;
+		font-size : 24px;
+		margin-top : 30px;
+}
+
+/* 상세정보(dinfo) */
+.pay-dinfo {
+		width : calc(100% - 100.5px);
+		float : left;
+		margin-left : 50px;
+		margin-right : 50px;
+}
+
+/* 하단부 버튼 2개 */
+.pay-btn {
+		width : 100%;
+		margin-top : 75px;
+		height : 100px;
+		line-height : 100px;
+		float : left;
+		text-align : center;
+		margin-left : auto;
+		margin-right : auto;
+}
+
+
+
+
+.rsvbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 25px 10px;
+		 width : 140px;
+		 height : 40px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+}
+
+
+
+
+
+

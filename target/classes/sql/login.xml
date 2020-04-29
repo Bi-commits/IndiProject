@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="login">
+
+	<!-- 로그인 -->
+	<select id="userlogin" parameterType="kr.gudi.web.bean.UserBean" resultType="kr.gudi.web.bean.UserBean">
+		SELECT
+			M_ID, M_PW, M_name, M_email, M_birth, M_phone
+			FROM M_info
+			WHERE M_ID = #{M_ID}
+	</select>
+	
+	<!-- 회원가입 -->
+	<insert id="adduser" parameterType="kr.gudi.web.bean.UserBean">
+		INSERT INTO M_info
+			(`M_ID`, `M_PW`, `M_name`, `M_email`, `M_birth`, `M_phone`)
+		VALUES
+			(#{M_ID}, #{M_PW}, #{M_name}, #{M_email}, #{M_birth}, #{M_phone})        
+	</insert>
+
+</mapper>

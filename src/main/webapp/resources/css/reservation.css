@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 150vh;}
+			  
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+		
+	
+}
+
+.rsv-inform {
+		margin-bottom : 20px;
+}
+
+.redcolor {
+		color : red;
+}
+
+.exh-list {
+		width : calc(50% - 100px);
+		height : 199px;
+		float : left;
+		margin : 40px 50px 0 50px;
+		border-bottom-width : 1px;
+		border-bottom-color : #8c8c8c;
+		border-bottom-style : solid;
+}
+
+.exh-image {
+		width : calc(20% - 30px);
+		height : 169px;
+		margin : 15px;
+		float : left;
+}
+
+.imgofexh {
+		width : 100%;
+		height : 160px;
+		float : left;
+}
+
+.exh-explain {
+		width : calc(60% - 50px);
+		height : 179px;
+		margin-top : 20px;
+		margin-left : 50px;
+		float : left;
+}
+
+.exh-pay {
+		width : 20%;
+		height : 199px;
+		float : right;
+		line-height : 199px;
+}
+
+.exhbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 15px 40px 15px 20px;
+		 width : 100px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+}
+
+.reg-staffonly{
+		width : 100%;
+		float : left;
+		margin-left : auto;
+		margin-right : auto;
+	
+}
+.reg-additionbtn {
+		text-align : center;
+		margin-left : auto;
+		margin-right : auto;
+}
+
+.regbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 115px 15px;
+		 width : 200px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+}
+		
+
+

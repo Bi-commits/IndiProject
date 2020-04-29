@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+a {text-decoration: none;
+	color : #0a0a0a;}
+
+#header {
+		 height : 250px;
+		 background-color : white;
+		 border-bottom-color: gray;
+		 border-bottom-width: 1px;
+		 border-bottom-style: dotted;
+		 margin-bottom: 20px;
+		 	 
+		 }
+
+#header-inner {
+		 width : 1650px;
+		 height : 250px;
+		 margin-left : auto;
+	  	 margin-right : auto;
+}
+
+.empty {
+		 width : 500px;
+		 height : 250px;
+		 float : left;
+}
+.header-logo-part {
+		 width : 650px;
+		 height : 250px;
+		 float : left;
+		 text-align : center;
+}
+
+
+.login-not {
+		 width : 350px;
+		 height : 250px;
+		 float : right;
+		 margin-left : 150px;			
+}
+
+.login-ok {
+		 width : 350px;
+		 height : 250px;
+		 float : right;
+		 margin-left : 150px;			
+}
+
+.headline {
+		 float : right;
+		 height : 200px;
+		 padding-top : 50px;
+		 font-size : 18px;
+		 font-weight : bold;
+		 text-align : center;
+}
+
+.hl-left {
+		 color : #94661c;
+		 font-size : 22px;
+		 letter-spacing : -2px;
+}
+
+.hl-right {
+		 font-size : 22px;
+		 letter-spacing : -2px;
+}
+
+.headerbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 25px 10px;
+		 width : 100px;
+		 height : 35px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+}
+
+		 
+#main {width : 1650px;
+	  height : 100%;
+	  min-height : 50vh;
+	  margin-left : auto;
+	  margin-right : auto;
+	  }
+/* 자식 float 때문에 clear: both; 추가 */
+#main:after {display: table; content: ""; clear: both;}
+
+#menubar {
+	width : 200px;
+	height : 400px;
+	float : left;
+}
+
+#selector {
+	font-size : 20px;
+	font-weight : bold;
+	text-align : center;
+	padding-top : 20px;
+	padding-bottom : 20px;  
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color : #8c8c8c;
+	color : #0a0a0a;
+}
+		  
+.navi {
+	padding-right : 25px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color : #8c8c8c;
+	padding-top : 25px;
+	padding-bottom : 25px;
+
+		}
+
+.ver {
+	margin-top : 15px;
+	margin-bottom : 15px;
+	font-size : 20px;
+	font-weight : bold;
+	color : #0a0a0a;
+	margin-left: 20px;
+	letter-spacing: -1px;
+	padding-left : 5px;
+
+
+	
+	}
+	
+
+			  
+#mainpage {width : 1400px;
+	   		float : right;
+	   		}
+	   		
+#pagetitle {
+	font-size : 20px;
+	font-weight : bold;
+	text-align : left;
+	padding-top : 20px;
+	padding-bottom : 20px;   
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color : #8c8c8c;
+	color : #0a0a0a;
+	margin-bottom : 27px;
+	padding-left : 10px;
+}
+
+#section {
+		padding-top : 20px;
+		letter-spacing : -1px;
+		font-weight : bold;	
+}
+
+
+#footer {
+		 height : 250px;
+		 background-color : #8c8c8c;
+		 color : white;
+}
+		 
+#footer-inner {
+		width : 1650px;
+		height : 250px;
+		margin-left : auto;
+	  	margin-right : auto;
+	  	font-size : 20px;
+		}
+		
+.footer-logo-part {
+		 width : 650px;
+		 height : 250px;
+		 float : left;
+}
+		
+.text-part {
+		width : 600px;
+		height : 200px;
+		padding-top : 50px;
+		float : right;
+}
+		
+.bold {font-weight : bold;}
+
+button:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
